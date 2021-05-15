@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    position: relative;
+    border: 1px solid black;
+    min-width: 250px;
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

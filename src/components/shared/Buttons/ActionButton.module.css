@@ -1,0 +1,30 @@
+button {
+    background-color: lightblue;
+    border-radius: 3px;
+    color: white;
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: gray;
+}
+
+button:disabled:hover {
+    cursor: not-allowed;
+}
+
+.smallButton {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.mediumButton {
+    width: 70px;
+    height: 30px;
+}

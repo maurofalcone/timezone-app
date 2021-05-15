@@ -1,0 +1,13 @@
+input {
+    outline: none;
+}
+
+.input {
+    max-width: 250px;
+    min-width: 150px;
+}
+
+.none {
+    border: none;
+    max-width: none;
+}

@@ -1,0 +1,21 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.appContainer form {
+    width: 350px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 10px;
+}
